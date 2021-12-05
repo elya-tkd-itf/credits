@@ -1,8 +1,8 @@
 package v_17.enums;
 
-import v_17.base.Bank;
 import v_17.base.Credit;
 
+//Коллекция, отвечающая за хранение всех кредитов
 public enum Credits {
     CREDIT_1(new Credit(Banks.SBER.getBank(), 3, 60,
             30000, 5000000, 10.9)),

@@ -9,7 +9,7 @@ import v_17.view.CreditViewInterface;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//Класс, отвечающий за логику программы
 public class CreditPresenter implements CreditPresenterInterface {
     private CreditViewInterface creditView;
     private CreditModelInterface creditModel;
@@ -21,6 +21,10 @@ public class CreditPresenter implements CreditPresenterInterface {
         this.credits = creditModel.getCredits();
     }
 
+    /**
+     * Метод, отвечающий за выбор пункта меню. Возвращает false, если неправильно указан пункт меню, иначе true
+     * @return
+     */
     @Override
     public boolean chooseMenu() {
         creditView.printMenu();
@@ -37,6 +41,9 @@ public class CreditPresenter implements CreditPresenterInterface {
         return true;
     }
 
+    /**
+     * Метод, фильтрующий кредиты по сроку выплаты
+     */
     private void changeMonth(){
         Scanner scanner = new Scanner(System.in);
         creditView.printTypeMonth();
@@ -52,6 +59,9 @@ public class CreditPresenter implements CreditPresenterInterface {
         credits = filterCredit;
     }
 
+    /**
+     * Метод, фильтрующий кредиты по сумме
+     */
     private void changeSum(){
         Scanner scanner = new Scanner(System.in);
         creditView.printTypeSum();
@@ -67,6 +77,9 @@ public class CreditPresenter implements CreditPresenterInterface {
         credits = filterCredit;
     }
 
+    /**
+     * Метод, фильтрующий кредиты по процентной ставке
+     */
     private void changeMaxRate(){
         Scanner scanner = new Scanner(System.in);
         creditView.printTypeRate();

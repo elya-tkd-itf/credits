@@ -4,20 +4,23 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//Класс, являющийся шаблоном банка
 public class Bank {
     private String name;
     private List<Credit> credits;
 
-    public Bank(String name, List<Credit> credits){
+    public Bank(String name, List<Credit> credits) {
         this.credits = credits;
         this.name = name;
     }
-    public Bank(String name){
+
+    public Bank(String name) {
         this.name = name;
         this.credits = new ArrayList<>();
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Банк ").append(name).append(" с кредитами:\n");
         for (Credit credit : credits)
@@ -49,7 +52,7 @@ public class Bank {
         return credits;
     }
 
-    public void addCredits(Credit... credits){
+    public void addCredits(Credit... credits) {
         this.credits.addAll(Arrays.asList(credits));
     }
 

@@ -1,7 +1,6 @@
 package v_17.base;
 
-import v_17.base.Bank;
-
+//Класс, являющийся шаблоном кредита
 public class Credit {
     private Bank bank;
     private int fromMonth, toMonth;

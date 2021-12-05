@@ -5,12 +5,15 @@ import v_17.enums.Credits;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Класс, отвечающий за получение данных
 public class CreditModel implements CreditModelInterface{
+    /**
+     * Метод, возвращающий все доступные кредиты
+     * @return
+     */
     @Override
     public List<Credit> getCredits() {
         List<Credit> credits = new ArrayList<>();
-        if (Credits.values() == null) throw new NullPointerException();
         for (Credits credit : Credits.values())
             credits.add(credit.getCredit());
         return credits;

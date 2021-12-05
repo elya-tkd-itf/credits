@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2d3d276-1d76-4efb-85ff-2a03801a0db0" name="Default Changelist" comment="" />
+    <list default="true" id="f2d3d276-1d76-4efb-85ff-2a03801a0db0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/base/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/base/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/base/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/base/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/enums/Banks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/enums/Banks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/enums/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/enums/Credits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/model/CreditModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/model/CreditModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/presenter/CreditPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/presenter/CreditPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v_17/view/CreditView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v_17/view/CreditView.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +26,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="21nU12jDvSjsqDC39GQ0oMAp7zJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -69,21 +86,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1638611898781" />
-    <state width="1237" height="349" key="GridCell.Tab.0.bottom" timestamp="1638612001707">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1638618115022">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="349" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638612001707" />
-    <state width="1237" height="349" key="GridCell.Tab.0.center" timestamp="1638612001707">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638618115022" />
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1638618118478">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="349" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638612001707" />
-    <state width="1237" height="349" key="GridCell.Tab.0.left" timestamp="1638612001707">
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638618118478" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1638618118478">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="349" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638612001707" />
-    <state width="1237" height="349" key="GridCell.Tab.0.right" timestamp="1638612001707">
+    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638618118478" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1638618118478">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="349" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638612001707" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638618118478" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1638618118478">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638618118478" />
   </component>
 </project>
